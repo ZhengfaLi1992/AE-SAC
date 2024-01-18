@@ -227,7 +227,7 @@ class QNetwork():
 
         # Network arquitecture
         self.model = Sequential()
-        # Add imput layer
+        # Add input layer
         self.model.add(Dense(hidden_size, input_shape=(obs_size,),
                              activation='relu'))
         # Add hidden layers
